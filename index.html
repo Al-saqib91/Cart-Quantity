@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <h2>Cart Quantity</h2>
+        </div>
+        <div class="box2">
+            <label for="Select Quantity"></label>
+                <Select id="cart">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </Select>
+            </label>
+        </div><br>
+        <div class="box3">
+            <button id="button1" onclick="add()">Add to Cart</button>
+            <button id="button2" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

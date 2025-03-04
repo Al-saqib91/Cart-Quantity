@@ -1,0 +1,55 @@
+body,html{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+.container{
+    background-color: rgb(126, 185, 240);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box1{
+    font-size: xx-large;
+}
+.box2{
+    /* background-color: antiquewhite; */
+    font-size: xx-large;
+    padding: 5px 35px;
+    text-align: center;
+}
+#cart{
+    height: 35px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(151, 235, 234);
+    border: 2px solid rgb(127, 88, 243);
+}
+#cart:hover{
+    transition: transform 0.6s;
+    transform: scale(1.05);
+}
+#button1{
+    background-color: rgb(94, 235, 94);
+    text-align: center;
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+}
+#button2{
+    background-color: rgb(243, 75, 75);
+    font-size: 15px;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+}
+#button1:hover,#button2:hover{
+    transition: transform 0.8s;
+    transform: scale(1.08);
+    font-weight: bold;
+}
